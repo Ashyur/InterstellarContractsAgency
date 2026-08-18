@@ -68,7 +68,7 @@ def ignore_wing_players_enabled() -> bool:
 
     value = config.get_str(
         CFG_IGNORE_WING_PLAYERS,
-        default="0"
+        default="1"
     )
 
     return value.lower() in (
